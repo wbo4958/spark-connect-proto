@@ -30,7 +30,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <scala.version>2.13.14</scala.version>
         <scala.binary.version>2.13</scala.binary.version>
-        <spark.version>4.0.1-SNAPSHOT</spark.version>
+        <spark.version>4.0.0</spark.version>
         <protobuf.version>4.29.3</protobuf.version>
         <protoc-jar-maven-plugin.version>3.11.4</protoc-jar-maven-plugin.version>
         <io.grpc.version>1.67.1</io.grpc.version>
@@ -116,6 +116,7 @@
                                 <include>src/main/protobuf</include>
                             </inputDirectories>
                             <includeMavenTypes>direct</includeMavenTypes>
+                            <compileMavenTypes>direct</compileMavenTypes>
                         </configuration>
                     </execution>
                 </executions>
